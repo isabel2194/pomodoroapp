@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+ 
+ body{
+     padding: 20px;
+     display:flex;
+     justify-content: center;
+ }
+
+ .pomodoro h1{
+    font-family: "Titillium Web";
+ }
+
+ .reloj{
+     margin:46px 0;
+     font-family: "Titillium Web";
+     text-align: center;
+ }
+
+ .reloj .form-group{
+     text-align: left;
+ }
+
+ .pomodoro table{
+    font-family: "Titillium Web";
+ }
+
+ #tasktimer{
+     margin: 20px 0;
+     border-top:thin solid #ddd;
+     padding:  20px 0;
+ }
+
+ .reloj .timer{
+     text-align: center;
+     font-size: 25px;
+ }
+
+ .reloj .current-task-name{
+     font-weight: 600;
+ }
+
+ .reloj #currenttask{
+     color:tomato;
+ }
+
+ .table{
+     margin-top:10px;
+ }
+
+ #clearTask{
+    margin-bottom: 10px;
+ }
